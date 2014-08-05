@@ -1,10 +1,6 @@
-<div class="all-posts">
+<div class="all-posts row-fluid">
   <%= render "posts" %>
 </div>
-
-<br>
-
-<%= paginate @posts %>
 
 <%= link_to 'New Post', new_post_path, id: "new-post", remote: true %>
 
