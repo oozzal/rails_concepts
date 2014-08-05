@@ -1,0 +1,12 @@
+<h1>Listing posts</h1>
+
+<div class="all-posts">
+  <%= render "posts" %>
+</div>
+
+<br>
+
+<%= paginate @posts %>
+
+<%= link_to 'New Post', new_post_path %>
+

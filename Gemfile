@@ -39,3 +39,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# my gems
+gem 'kaminari'
+
+gem 'pry', group: :development
+
